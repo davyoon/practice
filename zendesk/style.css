@@ -1,0 +1,71 @@
+.container {
+	height: 674px;
+	color: #03363d;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffea6b;
+	display: flex;
+}
+
+.container > div {
+	height: 100%;
+}
+
+.left {
+	flex: 15;
+	writing-mode: vertical-rl;
+	font-size: 55px;
+	text-align: center;
+	font-weight: 900;
+}
+
+.sphere {
+	flex: 16;
+	position: relative;
+}
+
+.right {
+	flex: 15;
+}
+
+.right .content {
+	padding: 106px 197px 80px 80px;
+}
+
+.sun-0 {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.video div {
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+    margin-left: 10px;
+}
+
+.video {
+    position: relative;
+}
+
+.container.hovered {
+	background-color: #554f9a;
+	font-family: 'Cousine', monospace;
+	color: #ffffff;
+}
+
+.container.hovered .video div {
+	border-bottom: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+
